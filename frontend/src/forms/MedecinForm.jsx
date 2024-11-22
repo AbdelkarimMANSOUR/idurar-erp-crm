@@ -5,7 +5,7 @@ import { useDate } from '@/settings';
 
 import useLanguage from '@/locale/useLanguage';
 
-export default function EmployeeForm() {
+export default function MedecinForm() {
   const translate = useLanguage();
   const { dateFormat } = useDate();
 
